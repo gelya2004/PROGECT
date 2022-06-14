@@ -12,7 +12,7 @@ void Output()
 	cout << "Press 6 for finding the reverse matrix" << endl;
 	cout << "Press 7 for finding the transposition matrix" << endl;
 	cout << "Press 8 for findint the determinant for 2x2 or 3x3 type matrix" << endl;
-	cout << "Press 9 for findint the determinant for 2x2 or 3x3 type matrix" << endl;
+	cout << "Press 9 for findint the rang for 2x2 or 3x3 type matrix" << endl;
 
 }
 
@@ -25,7 +25,7 @@ int main()
 
 	while (p != 0)
 	{
-		if ((p > 8) && (p < 0))
+		if ((p > 9) && (p < 0))
 		{
 			Output();
 		}
